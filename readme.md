@@ -136,7 +136,7 @@ $$
 K_k = P_{k|k-1} H_k^T (H_k P_{k|k-1} H_k^T + R_k)^{-1}
 $$
 $$
-\hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k [z_k - h(\hat{x}_{k|k-1})]
+\hat{x}_{k|k} = \hat{x}_{k|k-1} + K_k [z_k - \hat{x}_{k|k-1}]
 $$
 $$
 P_{k|k} = (I - K_k H_k) P_{k|k-1}
